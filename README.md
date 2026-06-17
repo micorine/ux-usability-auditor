@@ -102,33 +102,6 @@ The built-in checklist (`references/checklist-default.md`) covers 28 items acros
 
 To customize: copy `references/checklist-default.md`, modify items, and point `checklist` in your config to the new file.
 
----
-
-## Example Report Snippet
-
-```markdown
-# 医疗费控系统 — Usability Audit Report
-
-**Audit Date:** 2025-06-17
-**Target URL:** http://172.18.163.184:30000/saas-industry/#/portal
-**Pages Inspected:** 69
-
-## Summary
-
-| Category | Total Items | ✅ Pass | ⚠️ Issue | ❓ N/A |
-|----------|-------------|---------|----------|---------|
-| Navigation & Page Layout | 5 | 2 | 2 | 1 |
-| Operation Flow Efficiency | 5 | 1 | 3 | 1 |
-...
-
-## Priority Issue List
-
-### 🔴 P0 — 空状态页面无操作引导
-**Category:** Prompt & Copy Interaction
-**Finding:** 检测到 12 个空状态页面缺少操作引导按钮，建议增加引导文案和操作入口
-```
-
----
 
 ## Requirements
 
